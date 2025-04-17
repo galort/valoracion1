@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFESIONALES MAS HUMANOS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('R.jpg') no-repeat center center fixed;
+            background-size: cover;
+			display: flex;
+			justify-content: flex-end;
+        }
+        fieldset {
+            border: 2px solid #b63f25; 
+            border-radius: 10px; 
+            padding: 20px; 
+            margin: 20px; 
+            background-color: rgba(255, 255, 255, 0.8); 
+        }
+        legend {
+            font-size: 1.5em; 
+            font-weight: bold; 
+            color: #4CAF50; 
+        }
+        input[type="text"], input[type="password"], input[type="file"], select, textarea {
+            width: 100%; 
+            padding: 10px; 
+            margin: 10px 0; 
+            border: 1px solid #ccc; 
+            border-radius: 5px; 
+        }
+        input[type="submit"] {
+            background-color: #4CAF50; 
+            color: white; 
+            padding: 10px 15px; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049; 
+        }
+    </style>
+</head>
+<center>
+<body>
+	<h1 style="color: yellow">GABRIEL PAREDES TEJERINA<h1><br><br><img src="G.jpg"; width="150";><br>
+</center>
+    <fieldset>
+        <legend>Registro de Trabajadores</legend>
+        <form>
+            Rut: <input type="password" id="password" placeholder="sin puntos ni guion" required>  <br>
+            Nombre: <input type="text" required/>  <br>
+            Apellido Paterno: <input type="text" required>   <br>
+            Apellido Materno: <input type="text" required>   <br>
+            Nivel de estudio: 
+            <input type="checkbox"/> No tiene <br>
+            <input type="checkbox"/> Técnico <br>
+            <input type="checkbox"/> Universitario <br>
+            Sexo: 
+            <input type="radio" name="sexo" value="masculino" required> masculino
+            <input type="radio" name="sexo" value="femenino"> femenino<br>
+            Ciudad de nacimiento: 
+            <select required>
+                <option value="">Seleccione una ciudad</option>
+                <option value="santa_cruz">Santa Cruz</option>
+                <option value="cochabamba">Cochabamba</option>
+                <option value="la_paz">La Paz</option>
+                <option value="sucre">Sucre</option>
+                <option value="potosi">Potosí</option>
+            </select><br>
+            Curriculum: <input type="file" required>  <br>
+            Foto: <input type="file" required>  <br>
+            Tu mensaje: 
+            <textarea name="mensaje" required></textarea> <br>
+            <input type="submit" value="Registrar trabajador">	
+        </form>
+		<br><br><br>
+	<a href="galortparedes@gmail.com">correo electronico</a><br>
+	<a href="https://es-la.facebook.com/login/device-based/regular/login/">link de facebook</a>
+    </fieldset>
+</body>
+</html>
